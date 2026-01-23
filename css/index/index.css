@@ -1,3 +1,10 @@
-body{
-  background-image: url("images/");
+
+
+body {
+  text-align: center;
+  background-image: url("../../images/all-games/background-image/background.png");
+}
+h1{
+  color: yellow;
+  text-decoration: underline;
 }
