@@ -8,3 +8,27 @@ h1{
   color: yellow;
   text-decoration: underline;
 }
+
+#menuBtn{
+  border: yellow 2px solid;
+  width: 200px;
+  height: 200px;
+}
+
+.hamburg{
+  width: 75px;
+  height: 75px;
+  margin: none;
+  position: fixed;
+}
+#bar1{
+  transform: rotate(135deg);
+  top: 0;
+}
+#bar2{
+  transform: rotate(-45deg);
+  top: 50px;
+}
+#bar3{
+  display: none;
+}
