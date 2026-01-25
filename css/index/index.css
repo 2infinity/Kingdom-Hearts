@@ -4,15 +4,22 @@ body {
   text-align: center;
   background-image: url("../../images/all-games/background-image/background.png");
 }
-h1{
-  color: yellow;
-  text-decoration: underline;
+
+#h1{
+  margin-top: 25px;
+  width: 375px;
+  height: 275px;
 }
 
 #menuBtn{
   border: yellow 2px solid;
-  width: 200px;
-  height: 200px;
+  width: 125px;
+  height: 90px;
+  margin: none;
+  position: fixed;
+  right: 0px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .hamburg{
@@ -20,14 +27,17 @@ h1{
   height: 75px;
   margin: none;
   position: fixed;
+  transition: transform 0.25s linear;
 }
 #bar1{
   transform: rotate(135deg);
-  top: 0;
+  right: 20px;
 }
 #bar2{
   transform: rotate(-45deg);
-  top: 50px;
+  right: 20px;
+  top: 40px;
+  
 }
 #bar3{
   display: none;
