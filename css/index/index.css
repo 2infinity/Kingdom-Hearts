@@ -1,6 +1,8 @@
 
 
 body {
+  overflow-x: hidden;
+  background-color: black;
   text-align: center;
   background-image: url("../../images/all-games/background-image/background.png");
 }
@@ -12,7 +14,6 @@ body {
 }
 
 #menuBtn{
-  border: yellow 2px solid;
   width: 125px;
   height: 90px;
   margin: none;
@@ -27,7 +28,7 @@ body {
   height: 75px;
   margin: none;
   position: fixed;
-  transition: transform 0.25s linear;
+  transition: transform 0.25s linear, top 0.25s linear, right 0.25s linear;
 }
 #bar1{
   transform: rotate(135deg);
@@ -39,6 +40,18 @@ body {
   top: 40px;
   
 }
+
+#bar1.open{
+  transform: rotate(-270deg);
+  top: 30px;
+  right: 35px;
+}
+
+#bar2.open{
+  transform: rotate(-360deg);
+  top: 30px;
+}
+
 #bar3{
   display: none;
 }
