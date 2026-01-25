@@ -29,6 +29,7 @@ body {
   margin: 0px;
   position: fixed;
   transition: transform 0.25s linear, top 0.25s linear, right 0.25s linear;
+  z-index: 5;
 }
 #bar1{
   transform: rotate(135deg);
@@ -55,6 +56,30 @@ body {
 #bar3{
   display: none;
 }
+
+#menu-icon{
+  width: 200px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+#menu{
+  background: url("../../images/../../images/all-games/background-image/background.png");
+  border: 2px solid skyblue;
+  border-radius: 50px 0px 0px 50px;
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  height: 600px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  z-index: 3;
+}
+
+
+
+
 
 .icons{
   width: 250px;
