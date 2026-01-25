@@ -26,7 +26,7 @@ body {
 .hamburg{
   width: 75px;
   height: 75px;
-  margin: none;
+  margin: 0px;
   position: fixed;
   transition: transform 0.25s linear, top 0.25s linear, right 0.25s linear;
 }
@@ -54,4 +54,20 @@ body {
 
 #bar3{
   display: none;
+}
+
+.icons{
+  width: 250px;
+  height: 175px;
+  cursor: pointer;
+  transition: transform 0.25s linear;
+}
+.icons:hover{
+  transform: scale(1.1);
+}
+
+#container{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
 }
