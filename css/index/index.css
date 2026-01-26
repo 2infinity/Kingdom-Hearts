@@ -175,11 +175,9 @@ body {
 
 
 .icons{
-  transform: translateY(-20px);
   width: 250px;
   height: 175px;
-  cursor: pointer; 
-  opacity: 0;
+  cursor: pointer;
   transition: transform 0.25s linear;
 }
 .icons:hover{
@@ -187,46 +185,46 @@ body {
 }
 
 .fad{
-  animation: fadeIn 1s forwards;
+  animation: fadeIn 1s linear;
 }
 .fad1{
-  animation: fadeIn 2s forwards;
+  animation: fadeIn 2s linear;
 }
 .fad2{
-  animation: fadeIn 3s forwards;
+  animation: fadeIn 3s linear;
 }
 .fad3{
-  animation: fadeIn 4s forwards;
+  animation: fadeIn 4s linear;
 }
 .fad4{
-  animation: fadeIn 5s forwards;
+  animation: fadeIn 5s linear;
 }
 .fad5{
-  animation: fadeIn 6s forwards;
+  animation: fadeIn 6s linear;
 }
 .fad6{
-  animation: fadeIn 7s forwards;
+  animation: fadeIn 7s linear;
 }
 .fad7{
-  animation: fadeIn 8s forwards;
+  animation: fadeIn 8s linear;
 }
 .fad8{
-  animation: fadeIn 9s forwards;
+  animation: fadeIn 9s linear;
 }
 .fad9{
-  animation: fadeIn 10s forwards;
+  animation: fadeIn 10s linear;
 }
 .fad10{
-  animation: fadeIn 11s forwards;
+  animation: fadeIn 11s linear;
 }
 .fad11{
-  animation: fadeIn 12s forwards;
+  animation: fadeIn 12s linear;
 }
 .fad12{
-  animation: fadeIn 13s forwards;
+  animation: fadeIn 13s linear;
 }
 .fad13{
-  animation: fadeIn 14s forwards;
+  animation: fadeIn 14s linear;
 }
 
 #container{
