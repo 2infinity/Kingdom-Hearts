@@ -2,5 +2,15 @@
   #container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .fad1{
+    animation: fadein 1s linear;
+  }
+  .fad2{
+    animation: fadeIn 1s linear;
+  }
+  .fade3{
+    animation: fadeIn 1s linear;
   }
 }

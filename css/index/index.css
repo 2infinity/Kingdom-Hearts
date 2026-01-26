@@ -188,44 +188,15 @@ body {
   animation: fadeIn 1s linear;
 }
 .fad1{
-  animation: fadeIn 2s linear;
+  animation: fadeIn 1s linear;
 }
 .fad2{
-  animation: fadeIn 3s linear;
+  animation: fadeIn 2s linear;
 }
 .fad3{
-  animation: fadeIn 4s linear;
+  animation: fadeIn 3s linear;
 }
-.fad4{
-  animation: fadeIn 5s linear;
-}
-.fad5{
-  animation: fadeIn 6s linear;
-}
-.fad6{
-  animation: fadeIn 7s linear;
-}
-.fad7{
-  animation: fadeIn 8s linear;
-}
-.fad8{
-  animation: fadeIn 9s linear;
-}
-.fad9{
-  animation: fadeIn 10s linear;
-}
-.fad10{
-  animation: fadeIn 11s linear;
-}
-.fad11{
-  animation: fadeIn 12s linear;
-}
-.fad12{
-  animation: fadeIn 13s linear;
-}
-.fad13{
-  animation: fadeIn 14s linear;
-}
+
 
 #container{
   text-align: center;
