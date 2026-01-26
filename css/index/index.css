@@ -104,10 +104,13 @@ body {
   margin: 0px;
 }
 
-#kingdomKey{
+.keyblades{
   width: 250px;
   height: 250px;
   border-radius: 50px;
+}
+#kingdomKey{
+  
 }
 
 
