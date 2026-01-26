@@ -10,4 +10,8 @@ menuBtn.addEventListener("click", ()=>{
   bar2.classList.toggle("open");
   menu.classList.toggle("open");
   menuIcon2.classList.toggle("open");
+  
+  
 });
+
+
