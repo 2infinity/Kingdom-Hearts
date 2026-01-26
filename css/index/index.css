@@ -46,13 +46,13 @@ body {
 #bar1.open{
   transform: rotate(-270deg);
   top: 10px;
-  right: 20px;
+  right: 15px;
 }
 
 #bar2.open{
   transform: rotate(-360deg);
   top: 8px;
-  right: 15px;
+  right: 10px;
 }
 
 #bar3{
@@ -107,16 +107,38 @@ body {
 
 
 .icons{
+  transform: translateY(-20px);
   width: 250px;
   height: 175px;
-  cursor: pointer;
+  cursor: pointer; 
+  opacity: 0;
   transition: transform 0.25s linear;
 }
 .icons:hover{
   transform: scale(1.1);
 }
 
-
+.fad{
+  animation: fadeIn 1s forwards;
+}
+.fad1{
+  animation: fadeIn 2s forwards;
+}
+.fad2{
+  animation: fadeIn 4s forwards;
+}
+.fad3{
+  animation: fadeIn 5s forwards;
+}
+.fad4{
+  animation: fadeIn 8s forwards;
+}
+.fad5{
+  animation: fadeIn 8s forwards;
+}
+.fad6{
+  animation: fadeIn 8s forwards;
+}
 
 #container{
   text-align: center;

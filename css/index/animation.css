@@ -9,3 +9,11 @@
     transform: scale(1);
   }
 }
+
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
