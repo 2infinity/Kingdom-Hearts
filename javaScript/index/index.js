@@ -66,8 +66,8 @@ menuBtn.addEventListener("click", ()=>{
   function randomKeyblade() {
     const rando = Math.floor(Math.random() * max);
     
-  keyblades.forEach(d => {
-    d.style.display = "none";
+    keyblades.forEach(d => {
+      d.style.display = "none";
   });
   keyblades[rando].style.display = "inline-block";
   keyblades[rando].style.animation = "fadeIn 2s ease forwards";
