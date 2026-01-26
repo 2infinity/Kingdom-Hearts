@@ -110,6 +110,18 @@ body {
   border-radius: 50px;
 }
 #kingdomKey{
+  display: none;
+}
+#jungleKey{
+  display: none;
+}
+#threeWishes{
+  display: none;
+}
+#crabClaw{
+  display: none;
+}
+#pumpkinHead{
   
 }
 
