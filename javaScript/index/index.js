@@ -3,6 +3,7 @@ const bar1 = document.getElementById("bar1");
 const bar2 = document.getElementById("bar2");
 const menu = document.getElementById("menu")
 const menuIcon2 = document.getElementById("menu-icon2");
+const khx = document.getElementById("khx");
 
 menuBtn.addEventListener("click", ()=>{
   bar1.classList.toggle("open");
@@ -10,4 +11,3 @@ menuBtn.addEventListener("click", ()=>{
   menu.classList.toggle("open");
   menuIcon2.classList.toggle("open");
 });
-
