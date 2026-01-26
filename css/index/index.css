@@ -108,6 +108,8 @@ body {
   width: 250px;
   height: 250px;
   border-radius: 50px;
+  opacity: 0;
+  transform: translateY(-40px);
 }
 #kingdomKey{
   display: none;
@@ -142,7 +144,33 @@ body {
 #lionheart{
   display: none;
 }
-
+#oath{
+  display: none;
+}
+#oblivion{
+  display: none;
+}
+#lady{
+  display: none;
+}
+#divine{
+  display: none;
+}
+#diamond{
+  display: none;
+}
+#angel{
+  display: none;
+}
+#ultima{
+  display: none;
+}
+#keyD{
+  display: none;
+}
+#heart{
+  display: none;
+}
 
 
 
