@@ -193,19 +193,40 @@ body {
   animation: fadeIn 2s forwards;
 }
 .fad2{
-  animation: fadeIn 4s forwards;
+  animation: fadeIn 3s forwards;
 }
 .fad3{
-  animation: fadeIn 5s forwards;
+  animation: fadeIn 4s forwards;
 }
 .fad4{
-  animation: fadeIn 8s forwards;
+  animation: fadeIn 5s forwards;
 }
 .fad5{
-  animation: fadeIn 8s forwards;
+  animation: fadeIn 6s forwards;
 }
 .fad6{
+  animation: fadeIn 7s forwards;
+}
+.fad7{
   animation: fadeIn 8s forwards;
+}
+.fad8{
+  animation: fadeIn 9s forwards;
+}
+.fad9{
+  animation: fadeIn 10s forwards;
+}
+.fad10{
+  animation: fadeIn 11s forwards;
+}
+.fad11{
+  animation: fadeIn 12s forwards;
+}
+.fad12{
+  animation: fadeIn 13s forwards;
+}
+.fad13{
+  animation: fadeIn 14s forwards;
 }
 
 #container{
