@@ -6,7 +6,7 @@
     justify-content: center;
   }
   .fad1{
-    animation: fadein 1s linear;
+    animation: fadeIn 1s linear;
   }
   .fad2{
     animation: fadeIn 1s linear;
