@@ -111,68 +111,6 @@ body {
   opacity: 0;
   transform: translateY(-40px);
 }
-#kingdomKey{
-  display: none;
-}
-#jungleKey{
-  display: none;
-}
-#threeWishes{
-  display: none;
-}
-#crabClaw{
-  display: none;
-}
-#pumpkinHead{
-  display: none;
-}
-#fairy{
-  display: none;
-}
-#spellbinder{
-  display: none;
-}
-#wishing{
-  display: none;
-}
-#chocobo{
-  display: none;
-}
-#olympia{
-  display: none;
-}
-#lionheart{
-  display: none;
-}
-#oath{
-  display: none;
-}
-#oblivion{
-  display: none;
-}
-#lady{
-  display: none;
-}
-#divine{
-  display: none;
-}
-#diamond{
-  display: none;
-}
-#angel{
-  display: none;
-}
-#ultima{
-  display: none;
-}
-#keyD{
-  display: none;
-}
-#heart{
-  display: none;
-}
-
-
 
 .icons{
   width: 250px;
@@ -202,4 +140,5 @@ body {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
+  margin: 0px;
 }
