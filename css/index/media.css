@@ -1,4 +1,4 @@
-@media(min-width:600px){
+@media(min-width:800px){
   #container{
     display: flex;
     flex-direction: row;
@@ -12,5 +12,23 @@
   }
   .fade3{
     animation: fadeIn 1s linear;
+  }
+}
+
+@media (max-height: 400px){
+  #menu{
+    height: 300px;
+  }
+  #ceremony{
+    transform: translateY(-31px);
+    width: 125px;
+    height: 100px;
+  }
+  .keyblades{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    transform: translateY(-75px);
+    animation: apearTo 1.5s forwards;
   }
 }

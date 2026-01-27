@@ -21,3 +21,9 @@
     transform: translateY(0px);
   }
 }
+
+@keyframes apearTo{
+  to{
+    opacity: 1;
+  }
+}
