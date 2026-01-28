@@ -10,13 +10,13 @@
     animation: fadeIn 1s linear;
   }
   #h1{
-    margin-top: 5px;
+    margin-top: -25px;
   }
 }
 
 @media (max-height: 400px){
   #menu{
-    height: 300px;
+    height: 335px;
   }
   #ceremony{
     transform: translateY(-31px);
@@ -24,10 +24,13 @@
     height: 100px;
   }
   .keyblades{
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
-    transform: translateY(-75px);
+    transform: translateY(0px);
     animation: apearTo 1.5s forwards;
+  }
+  #kingdomKeyContainer{
+    transform: translateY(-50px);
   }
 }
