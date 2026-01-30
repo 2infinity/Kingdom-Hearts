@@ -126,13 +126,13 @@ body {
   animation: fadeIn 1s linear;
 }
 .fad1{
-  animation: fadeIn 1s linear;
+  animation: fadeIn 0.50s linear;
 }
 .fad2{
-  animation: fadeIn 1.5s linear;
+  animation: fadeIn 0.75s linear;
 }
 .fad3{
-  animation: fadeIn 2s linear;
+  animation: fadeIn 1s linear;
 }
 
 
