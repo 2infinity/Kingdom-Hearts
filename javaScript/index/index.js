@@ -90,12 +90,12 @@ icons.forEach(icon => {
 
 icons.forEach(icon =>{
   icon.addEventListener("click", ()=>{
-    selectItems.currentTime = 0;
+    selectItems.currentTime = 0.15;
     selectItems.play();
   });
 });
 
 menuBtn.addEventListener("click", ()=>{
-  selectItems.currentTime = 0;
+  selectItems.currentTime = 0.15;
   selectItems.play();
 })
