@@ -25,6 +25,10 @@ const ultima = document.getElementById("ultima");
 const kingD = document.getElementById("keyD");
 const heart = document.getElementById("heart");
 
+
+
+
+
 menuBtn.addEventListener("click", ()=>{
   bar1.classList.toggle("open");
   bar2.classList.toggle("open");
@@ -73,4 +77,12 @@ menuBtn.addEventListener("click", ()=>{
   keyblades[rando].style.animation = "fadeIn 2s ease forwards";
   }
   
-  
+const icons = document.querySelectorAll(".icons");
+const cursorMove = document.getElementById("cursorMove");
+
+icons.forEach(icon => {
+  icon.addEventListener("mouseenter", () => {
+    cursorMove.currentTime = 0;
+    cursorMove.play();
+  });
+});
