@@ -79,6 +79,7 @@ menuBtn.addEventListener("click", ()=>{
   
 const icons = document.querySelectorAll(".icons");
 const cursorMove = document.getElementById("cursorMove");
+const selectItems = document.getElementById("selectItems");
 
 icons.forEach(icon => {
   icon.addEventListener("mouseenter", () => {
@@ -86,3 +87,15 @@ icons.forEach(icon => {
     cursorMove.play();
   });
 });
+
+icons.forEach(icon =>{
+  icon.addEventListener("click", ()=>{
+    selectItems.currentTime = 0;
+    selectItems.play();
+  });
+});
+
+menuBtn.addEventListener("click", ()=>{
+  selectItems.currentTime = 0;
+  selectItems.play();
+})
