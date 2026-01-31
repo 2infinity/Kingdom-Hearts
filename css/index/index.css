@@ -63,6 +63,10 @@ body {
   width: 200px;
   height: 100px;
   margin-left: 0px;
+  transition: transform 0.5s linear;
+}
+#menu-icon:hover{
+  transform: scale(1.2);
 }
 #menu-icon2{
   width: 200px;

@@ -81,6 +81,7 @@ const icons = document.querySelectorAll(".icons");
 const cursorMove = document.getElementById("cursorMove");
 const selectItems = document.getElementById("selectItems");
 
+
 icons.forEach(icon => {
   icon.addEventListener("mouseenter", () => {
     cursorMove.currentTime = 0;
@@ -98,4 +99,4 @@ icons.forEach(icon =>{
 menuBtn.addEventListener("click", ()=>{
   selectItems.currentTime = 0.15;
   selectItems.play();
-})
+});
