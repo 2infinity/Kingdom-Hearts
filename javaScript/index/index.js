@@ -41,7 +41,11 @@ menuBtn.addEventListener("click", ()=>{
     getItem.play();
   }
  
+  
+ 
 });
+
+
 
   const keyblades = [
     keyS,
@@ -100,9 +104,4 @@ icons.forEach(icon =>{
     selectItems.currentTime = 0.15;
     selectItems.play();
   });
-});
-
-menuBtn.addEventListener("click", ()=>{
-  selectItems.currentTime = 0.15;
-  selectItems.play();
 });
