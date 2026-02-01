@@ -34,7 +34,7 @@ menuBtn.addEventListener("click", ()=>{
   bar2.classList.toggle("open");
   menu.classList.toggle("open");
   menuIcon2.classList.toggle("open");
-  
+  selectItems.play();
   randomKeyblade();
 
   if(menu.className ==="open"){
@@ -105,3 +105,8 @@ icons.forEach(icon =>{
     selectItems.play();
   });
 });
+
+menuBtn.addEventListener("mouseenter", ()=>{
+  cursorMove.currentTime=0;
+  cursorMove.play();
+})
