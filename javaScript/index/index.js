@@ -37,7 +37,9 @@ menuBtn.addEventListener("click", ()=>{
   
   randomKeyblade();
 
-  
+  if(menu.className ==="open"){
+    getItem.play();
+  }
  
 });
 
@@ -77,10 +79,14 @@ menuBtn.addEventListener("click", ()=>{
   keyblades[rando].style.animation = "fadeIn 2s ease forwards";
   }
   
+  
+  
 const icons = document.querySelectorAll(".icons");
+
+//audio
 const cursorMove = document.getElementById("cursorMove");
 const selectItems = document.getElementById("selectItems");
-
+const getItem = document.getElementById("getItem")
 
 icons.forEach(icon => {
   icon.addEventListener("mouseenter", () => {
