@@ -65,25 +65,25 @@ body {
   margin-left: 0px;
   transition: transform 0.5s linear;
 }
-#menu-icon:hover{
-  transform: scale(1.2);
-}
+
 #menu-icon2{
   width: 200px;
   height: 100px;
   position: fixed;
   right: -50px;
   top: 0px;
-  transition: right 0.25s linear, transform 0.25s linear;
-  animation: pulse 1s infinite;
+  transition: right 0.25s ease-out, transform 0.25s ease-out;
   z-index: 7;
+  will-change: transform;
 }
 #menu-icon2.open{
   right: -300px;
 }
 #menu-icon2:hover{
   transform: scale(1.2);
-  animation: none;
+}
+#menu-icon2:active{
+  transform: scale(0.8);
 }
 
 #menu{
