@@ -57,9 +57,12 @@ body{
   position: fixed;
   right: -50px;
   top: 0px;
-  transition: right 0.25s linear;
+  transition: right 0.25s linear, transform 0.25s linear;
   animation: pulse 1s infinite;
 }
 #menu-icon2.open {
   right: -300px;
+}
+#menuBtn #menu-icon2:hover{
+  transform: scale(1.2);
 }
