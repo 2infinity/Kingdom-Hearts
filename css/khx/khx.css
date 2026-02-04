@@ -51,3 +51,15 @@ body{
 #bar3{
   display: none;
 }
+#menu-icon2 {
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  right: -50px;
+  top: 0px;
+  transition: right 0.25s linear;
+  animation: pulse 1s infinite;
+}
+#menu-icon2.open {
+  right: -300px;
+}
