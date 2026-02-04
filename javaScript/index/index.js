@@ -105,8 +105,3 @@ icons.forEach(icon =>{
     selectItems.play();
   });
 });
-
-menuBtn.addEventListener("mouseenter", ()=>{
-  cursorMove.currentTime=0;
-  cursorMove.play();
-})

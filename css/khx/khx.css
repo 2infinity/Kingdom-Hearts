@@ -4,3 +4,50 @@ body{
   background-image: url("../../../images/all-games/background-image/background.png");
   background-repeat: no-repeat;
 }
+
+
+#menuBtn{
+  width: 125px;
+  height: 90px;
+  margin: none;
+  position: fixed;
+  right: 0px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.hamburg{
+  width: 75px;
+  height: 75px;
+  margin: 0px;
+  position: fixed;
+  transition: transform 0.25s linear, top 0.25s linear, right 0.25s linear;
+}
+#bar1{
+  transform: rotate(135deg);
+  right: 20px;
+  top: -20px;
+}
+#bar2{
+  transform: rotate(-45deg);
+  right: 20px;
+  top: 40px;
+  
+}
+
+#bar1.open{
+  transform: rotate(-270deg);
+  top: 10px;
+  right: 15px;
+}
+
+#bar2.open{
+  transform: rotate(-360deg);
+  top: 8px;
+  right: 10px;
+}
+
+#bar3{
+  display: none;
+}
