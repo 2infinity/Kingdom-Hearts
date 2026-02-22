@@ -13,7 +13,7 @@ menuBtn.addEventListener("click", ()=>{
   bar1.classList.toggle('open');
   bar2.classList.toggle("open");
   menuIcon2.classList.toggle("open");
-  
+  selectItems.play();
   
 });
 
