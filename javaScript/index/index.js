@@ -24,9 +24,17 @@ const angel = document.getElementById("angel");
 const ultima = document.getElementById("ultima");
 const kingD = document.getElementById("keyD");
 const heart = document.getElementById("heart");
+const icons = document.querySelectorAll(".icons");
+
+//audio
+const cursorMove = document.getElementById("cursorMove");
+const selectItems = document.getElementById("selectItems");
+const getItem = document.getElementById("getItem")
 
 
-
+menuBtn.addEventListener("mouseenter", ()=>{
+  cursorMove.play();  
+})
 
 
 menuBtn.addEventListener("click", ()=>{
@@ -35,14 +43,7 @@ menuBtn.addEventListener("click", ()=>{
   menu.classList.toggle("open");
   menuIcon2.classList.toggle("open");
   selectItems.play();
-  randomKeyblade();
-
-  if(menu.className ==="open"){
-    getItem.play();
-  }
- 
   
- 
 });
 
 
@@ -72,7 +73,7 @@ menuBtn.addEventListener("click", ()=>{
   
   const max = keyblades.length;
   const min = 1;
-  
+  /*
   function randomKeyblade() {
     const rando = Math.floor(Math.random() * max);
     
@@ -81,16 +82,11 @@ menuBtn.addEventListener("click", ()=>{
   });
   keyblades[rando].style.display = "inline-block";
   keyblades[rando].style.animation = "fadeIn 2s ease forwards";
-  }
+  }*/
   
   
   
-const icons = document.querySelectorAll(".icons");
 
-//audio
-const cursorMove = document.getElementById("cursorMove");
-const selectItems = document.getElementById("selectItems");
-const getItem = document.getElementById("getItem")
 
 icons.forEach(icon => {
   icon.addEventListener("mouseenter", () => {
