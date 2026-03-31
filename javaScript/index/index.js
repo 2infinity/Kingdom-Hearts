@@ -33,8 +33,9 @@ const getItem = document.getElementById("getItem")
 
 
 menuBtn.addEventListener("mouseenter", ()=>{
+  cursorMove.currentTime = 0.15;
   cursorMove.play();  
-})
+});
 
 
 menuBtn.addEventListener("click", ()=>{
@@ -42,8 +43,8 @@ menuBtn.addEventListener("click", ()=>{
   bar2.classList.toggle("open");
   menu.classList.toggle("open");
   menuIcon2.classList.toggle("open");
+  selectItems.currentTime = 0;
   selectItems.play();
-  
 });
 
 
