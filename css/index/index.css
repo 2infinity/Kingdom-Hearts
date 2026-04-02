@@ -164,20 +164,9 @@ body {
   width: 30px;
   height: 25px;
 }
-#mickeyBtn{
-  flex-wrap: wrap; 
-  opacity: 0.5;
-  cursor: pointer;
-  transition: opacity 0.25s linear, transform 0.25s linear;
-}
-#mickeyBtn:hover{
-  opacity: 1;
-  transform: scale(1.1);
-}
-#mickeyBtn:active{
-  transition: opacity 0.01s linear, transform 0.01s linear;
-  transform: scale(1);
-  opacity: 1;
+#key{
+  width: 30px;
+  height: 25px;
 }
 #test{
   width: 50px;
@@ -191,4 +180,25 @@ body {
 }
 a{
   text-decoration: none;
+}
+
+.menuBtns{
+  flex-wrap: wrap;
+opacity: 0.5;
+cursor: pointer;
+transition: opacity 0.25s linear,
+transform 0.25s linear;
+margin: 10px;
+}
+.menuBtns:hover{
+  
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.menuBtns:active{
+  transition: opacity 0.01s linear,
+transform 0.01s linear;
+transform: scale(1);
+opacity: 1;
 }
