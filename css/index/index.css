@@ -185,3 +185,10 @@ body {
   background-color: white;
   border-radius: 75px;
 }
+
+.menuText{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
