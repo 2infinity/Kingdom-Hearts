@@ -4,3 +4,24 @@
   }
   
 }
+
+@media (max-height: 400px){
+  #menu{
+    height: 335px;
+  }
+  #ceremony{
+    transform: translateY(-31px);
+    width: 125px;
+    height: 100px;
+  }
+  .keyblades{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transform: translateY(0px);
+    animation: apearTo 1.5s forwards;
+  }
+  #kingdomKeyContainer{
+    transform: translateY(-50px);
+  }
+}
