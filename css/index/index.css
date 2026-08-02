@@ -87,7 +87,7 @@ body {
 }
 
 #menu{
-  background: url("../../images/../../images/all-games/background-image/background.png");
+  background: url("../../images/all-games/background-image/background.png");
   border: 2px solid skyblue;
   border-radius: 50px 0px 0px 50px;
   position: fixed;

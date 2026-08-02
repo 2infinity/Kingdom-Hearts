@@ -1,7 +1,7 @@
 body{
   background-color: black;
   color: white;
-  background-image: url("../../../images/all-games/background-image/background.png");
+  background-image: url("../../images/all-games/background-image/background.png");
   background-repeat: no-repeat;
 }
 
@@ -77,7 +77,7 @@ body{
 }
 
 #menu{
-  background: url("../../images/../../images/all-games/background-image/background.png");
+  background: url("../../images/all-games/background-image/background.png");
   border: 2px solid skyblue;
   border-radius: 50px 0px 0px 50px;
   position: fixed;
@@ -129,7 +129,7 @@ a{
 }
 
 .menuBtns{
-  flex-wrap: wrap;
+flex-wrap: wrap;
 opacity: 0.5;
 cursor: pointer;
 transition: opacity 0.25s linear,
@@ -137,7 +137,6 @@ transform 0.25s linear;
 margin: 10px;
 }
 .menuBtns:hover{
-  
   opacity: 1;
   transform: scale(1.1);
 }
