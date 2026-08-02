@@ -51,6 +51,14 @@ body{
 #bar3{
   display: none;
 }
+
+#menu-icon{
+  width: 200px;
+  height: 100px;
+  margin-left: 0px;
+  transition: transform 0.5s linear;
+}
+
 #menu-icon2 {
   width: 200px;
   height: 100px;
@@ -67,3 +75,101 @@ body{
 #menu-icon2:hover{
   transform: scale(1.2);
 }
+
+#menu{
+  background: url("../../images/../../images/all-games/background-image/background.png");
+  border: 2px solid skyblue;
+  border-radius: 50px 0px 0px 50px;
+  position: fixed;
+  right: -350px;
+  top: 0px;
+  width: 300px;
+  height: 600px;
+  text-align: center;
+  z-index: 3;
+  transition: right 0.25s linear;
+}
+#menu.open{
+  right: 0px;
+}
+
+
+
+#menuContainer{
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.keyblades{
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+  opacity: 0;
+  transform: translateY(-40px);
+}
+
+.icons{
+  width: 250px;
+  height: 175px;
+  cursor: pointer;
+  transition: transform 0.25s linear;
+}
+.icons:hover{
+  transform: scale(1.1);
+}
+
+.menuText{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+
+.menuBtns{
+  flex-wrap: wrap;
+opacity: 0.5;
+cursor: pointer;
+transition: opacity 0.25s linear,
+transform 0.25s linear;
+margin: 10px;
+}
+.menuBtns:hover{
+  
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.menuBtns:active{
+  transition: opacity 0.01s linear,
+transform 0.01s linear;
+transform: scale(1);
+opacity: 1;
+}
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+
+
+#mickey{
+  width: 30px;
+  height: 25px;
+}
+#key{
+  width: 30px;
+  height: 25px;
+}
+
+#heart{
+  width: 20px;
+  height: 25px;
+}
+
+/*Main part all needs to be exported for the menu*/
