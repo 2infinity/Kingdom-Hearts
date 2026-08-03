@@ -7,6 +7,7 @@ const khx = document.getElementById("khx");
 const icons = document.querySelectorAll(".icons");
 const ceremony = document.getElementById("ceremony");
 const keyBtn = document.getElementById("keyBtn");
+const menuBtns = document.querySelectorAll(".menuBtns");
 //Keyblades
 const keyS = document.getElementById("kingdomKey");
 const jungle = document.getElementById("jungleKey");
@@ -79,6 +80,7 @@ menuBtn.addEventListener("click", ()=>{
   const min = 1;
   // Keyblade Functions  VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
   function randomKeyblade() {
+    getItem.play()
     ceremony.style.display = "inline";
 
     const rando = Math.floor(Math.random() * max);
@@ -113,3 +115,10 @@ icons.forEach(icon =>{
     selectItems.play();
   });
 });
+
+menuBtns.forEach(e =>{
+  e.addEventListener("mouseenter", ()=>{
+    cursorMove.currentTime = 0.15;
+    cursorMove.play();
+  })
+})
