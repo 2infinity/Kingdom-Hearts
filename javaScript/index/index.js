@@ -4,6 +4,10 @@ const bar2 = document.getElementById("bar2");
 const menu = document.getElementById("menu")
 const menuIcon2 = document.getElementById("menu-icon2");
 const khx = document.getElementById("khx");
+const icons = document.querySelectorAll(".icons");
+const ceremony = document.getElementById("ceremony");
+const keyBtn = document.getElementById("keyBtn");
+//Keyblades
 const keyS = document.getElementById("kingdomKey");
 const jungle = document.getElementById("jungleKey");
 const wishes = document.getElementById("threeWishes");
@@ -24,8 +28,8 @@ const angel = document.getElementById("angel");
 const ultima = document.getElementById("ultima");
 const kingD = document.getElementById("keyD");
 const heart = document.getElementById("heart");
-const icons = document.querySelectorAll(".icons");
 
+//Keyblades
 //audio
 const cursorMove = document.getElementById("cursorMove");
 const selectItems = document.getElementById("selectItems");
@@ -69,26 +73,33 @@ menuBtn.addEventListener("click", ()=>{
     angel,
     ultima,
     kingD,
-    heart
   ]
   
   const max = keyblades.length;
   const min = 1;
-  /*
+  // Keyblade Functions  VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
   function randomKeyblade() {
+    ceremony.style.display = "inline";
+
     const rando = Math.floor(Math.random() * max);
     
     keyblades.forEach(d => {
       d.style.display = "none";
-  });
-  keyblades[rando].style.display = "inline-block";
-  keyblades[rando].style.animation = "fadeIn 2s ease forwards";
-  }*/
+    });
+    keyblades[rando].style.display = "inline-block";
+    keyblades[rando].style.animation = "fadeIn 2s ease forwards";
+  }
   
-  
-  
+  function saveKeyblade(){
 
+  }
 
+  function renderKeyblade(){
+
+  }
+  //VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+keyBtn.addEventListener("click", randomKeyblade);
+  
 icons.forEach(icon => {
   icon.addEventListener("mouseenter", () => {
     cursorMove.currentTime = 0;

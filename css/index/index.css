@@ -104,9 +104,11 @@ body {
 }
 
 .menu-items{
-  width: 250px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
   margin: 0px;
+  position: relative;
+  top: -40px;
 }
 
 #menuContainer{
@@ -123,6 +125,9 @@ body {
   border-radius: 50px;
   opacity: 0;
   transform: translateY(-40px);
+  display: none;
+  position: relative;
+  top:-70px;
 }
 
 .icons{
@@ -155,6 +160,10 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0px;
+}
+
+#ceremony{
+  display: none;
 }
 
 
