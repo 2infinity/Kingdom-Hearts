@@ -212,7 +212,15 @@ margin: 10px;
 
 .menuBtns:active{
   transition: opacity 0.01s linear,
-transform 0.01s linear;
-transform: scale(1);
-opacity: 1;
+  transform 0.01s linear;
+  transform: scale(1);
+  opacity: 1;
+}
+
+#aboutText{
+  font-size: large;
+}
+
+#aboutContainer{
+  display: none;
 }

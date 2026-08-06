@@ -8,6 +8,8 @@ const icons = document.querySelectorAll(".icons");
 const ceremony = document.getElementById("ceremony");
 const keyBtn = document.getElementById("keyBtn");
 const menuBtns = document.querySelectorAll(".menuBtns");
+const aboutContainer = document.getElementById("aboutContainer");
+const heartBtn = document.getElementById("heartBtn");
 //Keyblades
 const keyS = document.getElementById("kingdomKey");
 const jungle = document.getElementById("jungleKey");
@@ -54,52 +56,67 @@ menuBtn.addEventListener("click", ()=>{
 
 
 
-  const keyblades = [
-    keyS,
-    jungle,
-    wishes,
-    crab,
-    pumpkin,
-    fairy,
-    spellbinder,
-    wishing,
-    chocobo,
-    olympia,
-    lion,
-    oath,
-    oblivion,
-    lady,
-    divine,
-    diamond,
-    angel,
-    ultima,
-    kingD,
-  ]
+const keyblades = [
+  keyS,
+  jungle,
+  wishes,
+  crab,
+  pumpkin,
+  fairy,
+  spellbinder,
+  wishing,
+  chocobo,
+  olympia,
+  lion,
+  oath,
+  oblivion,
+  lady,
+  divine,
+  diamond,
+  angel,
+  ultima,
+  kingD,
+]
+
+const max = keyblades.length;
+const min = 1;
+// Keyblade Functions  VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+function randomKeyblade() {
+  getItem.play()
+  ceremony.style.display = "inline";
+  aboutContainer.style.display = "none";
+
+  const rando = Math.floor(Math.random() * max);
   
-  const max = keyblades.length;
-  const min = 1;
-  // Keyblade Functions  VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
-  function randomKeyblade() {
-    getItem.play()
-    ceremony.style.display = "inline";
-
-    const rando = Math.floor(Math.random() * max);
-    
-    keyblades.forEach(d => {
-      d.style.display = "none";
-    });
-    keyblades[rando].style.display = "inline-block";
-    keyblades[rando].style.animation = "fadeIn 2s ease forwards";
-  }
+  keyblades.forEach(d => {
+    d.style.display = "none";
+  });
+  keyblades[rando].style.display = "inline-block";
+  keyblades[rando].style.animation = "fadeIn 2s ease forwards";
+}
   
-  function saveKeyblade(){
+function saveKeyblade(){
 
-  }
+}
 
-  function renderKeyblade(){
+function renderKeyblade(){
 
-  }
-  //VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+}
+//VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+//About Function >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+function about(){
+  ceremony.style.display = "none";
+  keyblades.forEach(d => {
+    d.style.display = "none";
+  });
+  aboutContainer.style.display = "inline";
+  aboutContainer.style.animation = "fadeIn 2s ease forwards";
+  selectItems.currentTime = 0.15;
+  selectItems.play();
+}
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 keyBtn.addEventListener("click", randomKeyblade);
   
 icons.forEach(icon => {
@@ -116,9 +133,18 @@ icons.forEach(icon =>{
   });
 });
 
+menuBtns.forEach(c =>{
+  c.addEventListener("click", ()=>{
+    selectItems.currentTime = 0.15;
+    selectItems.play();
+  })
+})
+
 menuBtns.forEach(e =>{
   e.addEventListener("mouseenter", ()=>{
     cursorMove.currentTime = 0.15;
     cursorMove.play();
   })
-})
+});
+
+heartBtn.addEventListener("click", about);
