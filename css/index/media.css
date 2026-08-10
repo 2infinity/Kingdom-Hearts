@@ -22,14 +22,14 @@
 
 @media(width<500px){
   #dandelions_Icon{
-    width: 75px;
-    height: 25px;
+    width: 100px;
+    height: 75px;
     margin: 0px;
   }
   #golTitle{
-    font-size: 16px;
+    font-size: 20px;
     margin: 0px;
-    line-height: 25px;
+    line-height: 80px;
   }
 }
 
