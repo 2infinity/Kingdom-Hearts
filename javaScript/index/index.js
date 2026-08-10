@@ -156,9 +156,12 @@ guardians.forEach(t=>{
   t.addEventListener("mouseenter", ()=>{
     cursorMove.currentTime = 0.15;
     cursorMove.play();
+    t.style.borderRadius = "25px";
     t.style.color = "black"
-    t.style.backgroundColor = "white";
+    t.style.backgroundImage = `url("images/banners/cynical_Banner.jpg")`;
     t.style.boxShadow = "2px 2px 20px 2px white";
+    t.style.backgroundPosition = "right";
+    t.style.backgroundSize = "cover"
   });
 });
 
@@ -166,6 +169,6 @@ guardians.forEach(t=>{
   t.addEventListener("mouseleave", ()=>{
     t.style.color = "white";
     t.style.boxShadow = "0px 0px 0px 0px white";
-    t.style.backgroundColor = "transparent";
+    t.style.backgroundImage = "none";
   });
 })
