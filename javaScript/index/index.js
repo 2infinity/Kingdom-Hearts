@@ -159,7 +159,7 @@ guardians.forEach(t=>{
     t.style.borderRadius = "25px";
     t.style.color = "black"
     t.style.backgroundImage = `url("images/banners/cynical_Banner.jpg")`;
-    t.style.boxShadow = "2px 2px 20px 2px white";
+    t.style.boxShadow = "2px 2px 20px 2px green";
     t.style.backgroundPosition = "right";
     t.style.backgroundSize = "cover"
   });
