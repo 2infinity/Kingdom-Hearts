@@ -252,18 +252,39 @@ margin: 10px;
 #golTitle{
   line-height: 85px;
 }
-
+#guardiansContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 .guardians{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  transition: all 0.25s linear;
+}
+.guardians:hover{
+  transform: scale(1.2);
+}
+.guardians:active{
+  transform: scale(0.90);
 }
 .guardianPic{
   width: 100px;
   height: 100px;
   border-radius: 50px;
+}
+.guardianName{
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 15px 0px 10px 0px;
+
+}
+.lux{
+  font-size: 25px;
 }
 .luxImage{
   width: 25px;

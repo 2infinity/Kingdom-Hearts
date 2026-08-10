@@ -10,6 +10,7 @@ const keyBtn = document.getElementById("keyBtn");
 const menuBtns = document.querySelectorAll(".menuBtns");
 const aboutContainer = document.getElementById("aboutContainer");
 const heartBtn = document.getElementById("heartBtn");
+const guardians = document.querySelectorAll(".guardians");
 //Keyblades
 const keyS = document.getElementById("kingdomKey");
 const jungle = document.getElementById("jungleKey");
@@ -137,14 +138,34 @@ menuBtns.forEach(c =>{
   c.addEventListener("click", ()=>{
     selectItems.currentTime = 0.15;
     selectItems.play();
-  })
-})
+  });
+});
 
 menuBtns.forEach(e =>{
   e.addEventListener("mouseenter", ()=>{
     cursorMove.currentTime = 0.15;
     cursorMove.play();
-  })
+  });
 });
 
 heartBtn.addEventListener("click", about);
+
+
+
+guardians.forEach(t=>{
+  t.addEventListener("mouseenter", ()=>{
+    cursorMove.currentTime = 0.15;
+    cursorMove.play();
+    t.style.color = "black"
+    t.style.backgroundColor = "white";
+    t.style.boxShadow = "2px 2px 20px 2px white";
+  });
+});
+
+guardians.forEach(t=>{
+  t.addEventListener("mouseleave", ()=>{
+    t.style.color = "white";
+    t.style.boxShadow = "0px 0px 0px 0px white";
+    t.style.backgroundColor = "transparent";
+  });
+})
