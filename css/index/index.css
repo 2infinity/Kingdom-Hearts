@@ -230,3 +230,18 @@ margin: 10px;
   border-radius: 25px;
   box-shadow: 2px 2px 20px 10px white;
 }
+#dandelions_Icon{
+  width: 175px;
+  height: 125px;
+}
+
+#titleContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-self: center;
+}
+#golTitle{
+  line-height: 85px;
+}
