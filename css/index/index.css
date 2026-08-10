@@ -233,6 +233,7 @@ margin: 10px;
 #dandelions_Icon{
   width: 175px;
   height: 125px;
+  animation: rotation3d 2s linear infinite;
 }
 
 #titleContainer{

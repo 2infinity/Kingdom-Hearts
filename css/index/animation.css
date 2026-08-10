@@ -27,3 +27,12 @@
     opacity: 1;
   }
 }
+
+@keyframes rotation3d{
+  from{
+    transform: rotatey(0deg);
+  }
+  to{
+    transform: rotatey(360deg);
+  }
+}
