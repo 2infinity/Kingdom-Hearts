@@ -33,6 +33,19 @@
   }
 }
 
+@media(width<400px){
+    #dandelions_Icon{
+    width: 90px;
+    height: 60px;
+    margin: 0px;
+  }
+  #golTitle{
+    font-size: 18px;
+    margin: 0px;
+    line-height: 60px;
+  }
+}
+
 @media (max-height: 400px){
   #menu{
     height: 335px;
