@@ -11,6 +11,7 @@ const menuBtns = document.querySelectorAll(".menuBtns");
 const aboutContainer = document.getElementById("aboutContainer");
 const heartBtn = document.getElementById("heartBtn");
 const guardians = document.querySelectorAll(".guardians");
+const guardianPic = document.querySelectorAll(".guardianPic");
 //Keyblades
 const keyS = document.getElementById("kingdomKey");
 const jungle = document.getElementById("jungleKey");
@@ -156,12 +157,14 @@ guardians.forEach(t=>{
   t.addEventListener("mouseenter", ()=>{
     cursorMove.currentTime = 0.15;
     cursorMove.play();
+    if(t.id=="cynical"){
+      t.style.backgroundImage = `url("images/banners/cynical_Banner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px green";
+      t.style.backgroundPosition = "350px";
+      t.style.backgroundSize = "cover";
+    }
     t.style.borderRadius = "25px";
     t.style.color = "black"
-    t.style.backgroundImage = `url("images/banners/cynical_Banner.jpg")`;
-    t.style.boxShadow = "2px 2px 20px 2px green";
-    t.style.backgroundPosition = "right";
-    t.style.backgroundSize = "cover"
   });
 });
 
@@ -171,4 +174,10 @@ guardians.forEach(t=>{
     t.style.boxShadow = "0px 0px 0px 0px white";
     t.style.backgroundImage = "none";
   });
-})
+});
+
+guardians.forEach(t=>{
+  t.addEventListener("click", ()=>{
+    selectItems.play();
+  });
+});
