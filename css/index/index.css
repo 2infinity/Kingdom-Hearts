@@ -234,6 +234,7 @@ margin: 10px;
   border: 2px solid white;
   border-radius: 25px;
   box-shadow: 2px 2px 20px 10px white;
+  justify-content: center;
 }
 #dandelions_Icon{
   width: 175px;
@@ -265,6 +266,7 @@ margin: 10px;
   flex-direction: row;
   flex-wrap: wrap;
   transition: all 0.25s linear;
+  width: 290px;
 }
 .guardians:hover{
   transform: scale(1.2);
@@ -289,9 +291,13 @@ margin: 10px;
 .luxImage{
   width: 25px;
   height: 25px;
+  border: none;
 }
 .textContainer{
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+#cynicalText{
+  color: white;
 }

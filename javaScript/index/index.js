@@ -151,6 +151,9 @@ menuBtns.forEach(e =>{
 
 heartBtn.addEventListener("click", about);
 
+//Guardians //
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+
 
 
 guardians.forEach(t=>{
@@ -160,17 +163,67 @@ guardians.forEach(t=>{
     if(t.id=="cynical"){
       t.style.backgroundImage = `url("images/banners/cynical_Banner.jpg")`;
       t.style.boxShadow = "2px 2px 40px 5px green";
-      t.style.backgroundPosition = "350px";
+      t.style.backgroundPosition = "355px";
+      t.style.backgroundSize = "cover";
+    }
+    else if(t.id=="sarah"){
+      t.style.backgroundImage = `url("images/banners/sarahBanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px pink";
+      t.style.backgroundPosition = "557px";
+      t.style.backgroundSize = "cover";
+    }
+    else if(t.id=="hmk"){
+      t.style.backgroundImage = `url("images/banners/hmkBanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px red";
+      t.style.backgroundPosition = "700px";
+      t.style.backgroundSize = "cover";
+    }
+    else if(t.id=="ever"){
+      t.style.backgroundImage = `url("images/banners/everglowBanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px purple";
+      t.style.backgroundPosition = "375px";
+      t.style.backgroundSize = "cover";
+    }
+    else if(t.id=="sora"){
+      t.style.backgroundImage = `url("images/banners/soraalarmBanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px blue";
+      t.style.backgroundPosition = "610px";
+      t.style.backgroundSize = "cover";
+    }
+    else if(t.id=="biz"){
+      t.style.backgroundImage = `url("images/banners/bizBanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px darkblue";
+      t.style.backgroundPosition = "950px";
+      t.style.backgroundSize = "cover";
+    }
+    else if(t.id=="sky"){
+      t.style.backgroundImage = `url("images/banners/skyBanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px lightPink";
+      t.style.backgroundPosition = "585px";
+      t.style.backgroundSize = "fill";
+    }
+    else if(t.id=="damo"){
+      t.style.backgroundImage = `url("images/banners/damoBanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px lightblue";
+      t.style.backgroundPosition = "695px";
+      t.style.backgroundSize = "cover";
+    }
+    else if(t.id=="prodigy"){
+      t.style.backgroundImage = `url("images/banners/prodigyBanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px lightblue";
+      t.style.backgroundPosition = "600px";
       t.style.backgroundSize = "cover";
     }
     t.style.borderRadius = "25px";
-    t.style.color = "black"
+    t.style.color = "white";
   });
 });
 
 guardians.forEach(t=>{
   t.addEventListener("mouseleave", ()=>{
-    t.style.color = "white";
+    if(t.id=="cynical"){
+      t.style.color = "white";
+    }
     t.style.boxShadow = "0px 0px 0px 0px white";
     t.style.backgroundImage = "none";
   });
