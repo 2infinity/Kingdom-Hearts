@@ -210,7 +210,7 @@ guardians.forEach(t=>{
     }
     else if(t.id=="prodigy"){
       t.style.backgroundImage = `url("images/banners/prodigyBanner.jpg")`;
-      t.style.boxShadow = "2px 2px 40px 5px lightblue";
+      t.style.boxShadow = "2px 2px 40px 5px white";
       t.style.backgroundPosition = "600px";
       t.style.backgroundSize = "cover";
     }
