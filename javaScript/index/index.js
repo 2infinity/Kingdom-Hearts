@@ -12,6 +12,7 @@ const aboutContainer = document.getElementById("aboutContainer");
 const heartBtn = document.getElementById("heartBtn");
 const guardians = document.querySelectorAll(".guardians");
 const guardianPic = document.querySelectorAll(".guardianPic");
+const newsContainer = document.getElementById("newsContainer");
 //Keyblades
 const keyS = document.getElementById("kingdomKey");
 const jungle = document.getElementById("jungleKey");
@@ -33,7 +34,6 @@ const angel = document.getElementById("angel");
 const ultima = document.getElementById("ultima");
 const kingD = document.getElementById("keyD");
 const heart = document.getElementById("heart");
-
 //Keyblades
 //audio
 const cursorMove = document.getElementById("cursorMove");
@@ -80,6 +80,7 @@ menuBtn.addEventListener("click", ()=>{
   keyblades.forEach(d=>{
     d.style.display = "none";
   });
+  newsContainer.style.display = "flex";
 
 });
 
@@ -94,6 +95,7 @@ function randomKeyblade() {
   getItem.play()
   ceremony.style.display = "inline";
   aboutContainer.style.display = "none";
+  newsContainer.style.display = "none";
 
   const rando = Math.floor(Math.random() * max);
   
@@ -117,6 +119,7 @@ function renderKeyblade(){
 
 function about(){
   ceremony.style.display = "none";
+  newsContainer.style.display = "none";
   keyblades.forEach(d => {
     d.style.display = "none";
   });

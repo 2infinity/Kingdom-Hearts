@@ -171,6 +171,25 @@ a{
   display: none;
 }
 
+#newsIcon{
+  margin: 30px 0px 0px 0px;
+  width: 200px;
+  height: 100px;
+  padding: 0px;
+}
+#newsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+
+#kairiTribute{
+  width: 250px;
+  height: 200px;
+  border-radius: 25%;
+}
 
 
 #mickey{
