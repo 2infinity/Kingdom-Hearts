@@ -46,18 +46,6 @@ menuBtn.addEventListener("mouseenter", ()=>{
   cursorMove.play();  
 });
 
-
-menuBtn.addEventListener("click", ()=>{
-  bar1.classList.toggle("open");
-  bar2.classList.toggle("open");
-  menu.classList.toggle("open");
-  menuIcon2.classList.toggle("open");
-  selectItems.currentTime = 0;
-  selectItems.play();
-});
-
-
-
 const keyblades = [
   keyS,
   jungle,
@@ -79,6 +67,25 @@ const keyblades = [
   ultima,
   kingD,
 ]
+
+menuBtn.addEventListener("click", ()=>{
+  bar1.classList.toggle("open");
+  bar2.classList.toggle("open");
+  menu.classList.toggle("open");
+  menuIcon2.classList.toggle("open");
+  selectItems.currentTime = 0;
+  selectItems.play();
+  aboutContainer.style.display = "none";
+  ceremony.style.display = "none";
+  keyblades.forEach(d=>{
+    d.style.display = "none";
+  });
+
+});
+
+
+
+
 
 const max = keyblades.length;
 const min = 1;
