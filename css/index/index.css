@@ -340,3 +340,8 @@ margin: 10px;
   flex-direction: row;
   flex-wrap: wrap;
 }
+.vid{
+  margin: 20px;
+  box-shadow: 2px 2px 20px 10px white;
+  justify-items: center;
+}

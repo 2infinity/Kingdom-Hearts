@@ -13,6 +13,8 @@ const heartBtn = document.getElementById("heartBtn");
 const guardians = document.querySelectorAll(".guardians");
 const guardianPic = document.querySelectorAll(".guardianPic");
 const newsContainer = document.getElementById("newsContainer");
+const newsIcon = document.getElementById("newsIcon");
+const khNewsContainer = document.getElementById("khNewsContainer");
 //Keyblades
 const keyS = document.getElementById("kingdomKey");
 const jungle = document.getElementById("jungleKey");
@@ -243,4 +245,11 @@ guardians.forEach(t=>{
   t.addEventListener("click", ()=>{
     selectItems.play();
   });
+});
+
+
+
+// News Container Scroll >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+newsIcon.addEventListener("click", () => {
+  khNewsContainer.scrollIntoView({ behavior: "smooth" });
 });
