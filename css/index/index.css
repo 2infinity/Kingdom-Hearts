@@ -334,11 +334,16 @@ margin: 10px;
   border: none;
   border-radius: 25px;
   margin: 5px;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
 }
 #videoContainer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
 }
 .vid{
   margin: 20px;

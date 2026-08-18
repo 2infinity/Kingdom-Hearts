@@ -32,6 +32,12 @@
     line-height: 80px;
   }
 }
+@media(width<550px){
+  .newsVideo{
+    width: 300px;
+    height: 150px;
+  }
+}
 
 @media(width<450px){
     #dandelions_Icon{
