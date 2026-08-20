@@ -252,4 +252,8 @@ guardians.forEach(t=>{
 // News Container Scroll >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 newsIcon.addEventListener("click", () => {
   khNewsContainer.scrollIntoView({ behavior: "smooth" });
+  bar1.classList.toggle("open");
+  bar2.classList.toggle("open");
+  menu.classList.toggle("open");
+  menuIcon2.classList.toggle("open");
 });
