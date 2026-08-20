@@ -86,7 +86,14 @@ menuBtn.addEventListener("click", ()=>{
 
 });
 
-
+document.body.addEventListener("click", (e) => {
+  if (!menu.contains(e.target) && !menuIcon2.contains(e.target)) {
+    menu.classList.remove("open");
+    menuIcon2.classList.remove("open");
+    bar1.classList.remove("open");
+    bar2.classList.remove("open");
+  }
+});
 
 
 
@@ -257,3 +264,4 @@ newsIcon.addEventListener("click", () => {
   menu.classList.toggle("open");
   menuIcon2.classList.toggle("open");
 });
+
