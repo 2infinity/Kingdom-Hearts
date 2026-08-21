@@ -254,6 +254,7 @@ margin: 10px;
   border-radius: 25px;
   box-shadow: 2px 2px 20px 10px white;
   justify-content: center;
+  margin: 75px 0px 25px 0px;
 }
 #dandelions_Icon{
   width: 175px;
@@ -327,6 +328,7 @@ margin: 10px;
 #khNewsContainer{
   justify-content: center;
   justify-items: center;
+  margin: 75px 0px 0px 0px;
 }
 .newsVideo{
   width: 500px;
