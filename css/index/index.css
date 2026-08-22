@@ -272,6 +272,7 @@ margin: 10px;
 }
 #golTitle{
   line-height: 85px;
+  font-weight: 999;
 }
 #guardiansContainer{
   display: flex;

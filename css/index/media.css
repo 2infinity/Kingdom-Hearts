@@ -42,17 +42,17 @@
 @media(width<450px){
     #dandelions_Icon{
     width: 90px;
-    height: 60px;
+    height: 70px;
     margin: 0px;
   }
   #golTitle{
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px;
     line-height: 60px;
   }
 }
 
-@media(width<376px){
+@media(width<376px), (width<420px){
     #dandelions_Icon{
     width: 75px;
     height: 60px;
@@ -65,7 +65,7 @@
   }
 }
 
-@media(width<350px){
+@media(width<350px), (width<358px){
     #dandelions_Icon{
     width: 65px;
     height: 40px;
