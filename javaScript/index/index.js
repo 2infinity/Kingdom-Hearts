@@ -15,6 +15,7 @@ const guardianPic = document.querySelectorAll(".guardianPic");
 const newsContainer = document.getElementById("newsContainer");
 const newsIcon = document.getElementById("newsIcon");
 const khNewsContainer = document.getElementById("khNewsContainer");
+const mickeyPoint = document.getElementById("mickeyPoint");
 //Keyblades
 const keyS = document.getElementById("kingdomKey");
 const jungle = document.getElementById("jungleKey");
@@ -265,3 +266,19 @@ newsIcon.addEventListener("click", () => {
   menuIcon2.classList.toggle("open");
 });
 
+// Mickey Scroll >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+window.addEventListener("scroll", ()=>{
+  if(window.scrollY>50){
+    mickeyPoint.style.display= "block";
+  }
+  else{
+    mickeyPoint.style.display = "none";
+  }
+});
+
+function scrollUp(){
+  h1.scrollIntoView({behavior: "smooth"});
+}
+
+mickeyPoint.addEventListener("click", scrollUp);

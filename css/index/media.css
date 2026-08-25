@@ -31,12 +31,17 @@
     margin: 0px;
     line-height: 80px;
   }
+  #mickeyPoint:hover{
+    opacity: 0.5;
+    transform: rotate(-45deg);
+  }
 }
 @media(width<550px){
   .newsVideo{
     width: 300px;
     height: 150px;
   }
+
 }
 
 @media(width<450px){

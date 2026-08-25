@@ -272,7 +272,7 @@ margin: 10px;
 }
 #golTitle{
   line-height: 85px;
-  font-weight: 999;
+  font-weight: bolder;
 }
 #guardiansContainer{
   display: flex;
@@ -281,6 +281,26 @@ margin: 10px;
   justify-content: center;
 }
 
+#mickeyPoint{
+  display: none;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  opacity: 0.5;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+#mickeyPoint:hover{
+  opacity: 1;
+  transform: scale(1.1) rotate(-45deg);
+}
+#mickeyPoint:active{
+  opacity: 1;
+  transform: scale(0.8) rotate(-45deg);
+}
 
 .guardians{
   display: flex;
