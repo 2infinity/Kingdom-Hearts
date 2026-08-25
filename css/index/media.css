@@ -35,6 +35,11 @@
     opacity: 0.5;
     transform: rotate(-45deg);
   }
+  #mickeyPoint{
+    right: none;
+    left: 0px;
+    bottom: 5px;
+  }
 }
 @media(width<550px){
   .newsVideo{
