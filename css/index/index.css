@@ -274,6 +274,10 @@ margin: 10px;
   line-height: 85px;
   font-weight: bolder;
 }
+#gol{
+  width: 375px;
+  height: 175px;
+}
 #guardiansContainer{
   display: flex;
   flex-direction: row;

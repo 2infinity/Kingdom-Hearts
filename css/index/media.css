@@ -17,7 +17,12 @@
   #menu-icon2:hover{
     transform: none;
   }
- 
+}
+
+@media(width<745px){
+  #dandelions_Icon{
+    display: none;
+  }
 }
 
 @media(width<705px){
@@ -49,18 +54,6 @@
 
 }
 
-@media(width<450px){
-    #dandelions_Icon{
-    width: 90px;
-    height: 70px;
-    margin: 0px;
-  }
-  #golTitle{
-    font-size: 20px;
-    margin: 0px;
-    line-height: 60px;
-  }
-}
 
 @media(width<376px), (width<420px){
     #dandelions_Icon{
