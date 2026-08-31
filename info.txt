@@ -1,6 +1,8 @@
 *Home Page Plans
-Add Ninten To the site.
 We should add multiple shops Maybe make a seperate shop page.
+add margins or padding for the news videos in their container.
+---Youtubers To Add.---
+
 
 *Khux Plans
 1.Worlds

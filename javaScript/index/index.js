@@ -216,6 +216,31 @@ guardians.forEach(t=>{
       t.style.backgroundPosition = "950px";
       t.style.backgroundSize = "cover";
     }
+    else if(t.id=="ninten"){
+      t.style.backgroundImage = `url("images/youtubers/ninten.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px red";
+      t.style.backgroundPosition = "0px";
+      t.style.backgroundSize = "50px";
+      t.style.backgroundRepeat = "repeat";
+    }
+    else if(t.id=="lowkeymatt"){
+      t.style.backgroundImage = `url("images/banners/lowkeybanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px skyblue";
+      t.style.backgroundPosition = "747px 0px";
+      t.style.backgroundSize = "fill";
+    }
+    else if(t.id=="bloody"){
+      t.style.backgroundImage = `url("images/banners/bloodybizkitzbanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px yellow";
+      t.style.backgroundPosition = "1200px";
+      t.style.backgroundSize = "fill";
+    }
+    else if(t.id=="regular"){
+      t.style.backgroundImage = `url("images/banners/regularpatbanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px purple";
+      t.style.backgroundPosition = "1175px";
+      t.style.backgroundSize = "fill";
+    }
     else if(t.id=="sky"){
       t.style.backgroundImage = `url("images/banners/skyBanner.jpg")`;
       t.style.boxShadow = "2px 2px 40px 5px lightPink";
@@ -227,6 +252,12 @@ guardians.forEach(t=>{
       t.style.boxShadow = "2px 2px 40px 5px lightblue";
       t.style.backgroundPosition = "695px";
       t.style.backgroundSize = "cover";
+    }
+    else if(t.id=="stickman"){
+      t.style.backgroundImage = `url("images/banners/stickmanbanner.jpg")`;
+      t.style.boxShadow = "2px 2px 40px 5px green";
+      t.style.backgroundPosition = "-50px";
+      t.style.backgroundSize = "700px";
     }
     else if(t.id=="prodigy"){
       t.style.backgroundImage = `url("images/banners/prodigyBanner.jpg")`;
