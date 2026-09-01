@@ -312,6 +312,7 @@ margin: 10px;
   flex-wrap: wrap;
   transition: all 0.25s linear;
   width: 290px;
+  margin: 12.5px 0px 12.5px 0px;
 }
 .guardians:hover{
   transform: scale(1.2);
