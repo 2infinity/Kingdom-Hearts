@@ -1,6 +1,5 @@
 *Home Page Plans
 We should add multiple shops Maybe make a seperate shop page.
-add margins or padding for the news videos in their container.
 ---Youtubers To Add.---
 
 
