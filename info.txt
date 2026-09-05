@@ -1,6 +1,6 @@
 *Home Page Plans
 ---Youtubers To Add.---
-1. 
+1. Possibly fix Melody Of Memory Icon. 
 
 
 *Shops Plans
@@ -20,9 +20,8 @@ We should change the icons for each page?
 3.Characters
 4.Story
 -Summary at the bottom of the video.
-5.Worlds
-6.Unions & Union Leaders
--Quiz For Unions.
+5.Unions & Union Leaders
+6.Quiz For Unions.
 7.Dandelions
 8.
 
