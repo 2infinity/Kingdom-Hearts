@@ -25,3 +25,12 @@ menuBtn.addEventListener("click", ()=>{
   selectItems.currentTime = 0;
   selectItems.play();
 });
+
+document.addEventListener("click", (e) => {
+  if (!menu.contains(e.target) && !menuIcon2.contains(e.target)) {
+    menu.classList.remove("open");
+    menuIcon2.classList.remove("open");
+    bar1.classList.remove("open");
+    bar2.classList.remove("open");
+  }
+});
