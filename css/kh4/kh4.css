@@ -2,9 +2,11 @@ body{
   background-color: black;
   color: white;
   background-image: url("../../images/all-games/background-image/background.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   text-align: center;
   justify-content: center;
+  font-weight: bolder;
+  overflow-x: hidden;
 }
 
 #menuBtn{
@@ -173,7 +175,24 @@ opacity: 1;
 }
 
 
-/* Import above for other pages. */ 
+/* Import above for other pages. >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/ 
+
+
+
+/*KeyFrames>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@keyframes fadeInOut{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
 
 header{
     display: flex;
@@ -184,17 +203,56 @@ header{
 #kh4Logo{
     width: 650px;
     height: 400px;
+    margin: 0px 0px 25px 0px;
 }
 .kh4Trailers{
     border-radius: 10%;
-    width: 750px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     transition: all 0.25s linear;
+    margin: 25px;
 }
 .kh4Trailers:hover{
     transform: scale(1.1);
+    box-shadow: 2px 2px 30px 30px white;
 }
 #khTrailerIcon{
-    width: 500px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
+    margin: 0px 0px 50px 0px;
 }
+#trailerContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Media Responsive design>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+@media(width<=750px){
+  #kh4Logo{
+    width: 425px;
+    height: 225px;
+    margin: 50px 0px 0px 0px;
+  }
+  .kh4Trailers{
+    width: 300px;
+    height: 150px;
+  }
+}
+
+@media(width<=420px){
+  #khTrailerIcon{
+    width: 200px;
+    height: 100px;
+  }
+  #kh4Logo{
+    width: 325px;
+    height: 200px;
+  }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
