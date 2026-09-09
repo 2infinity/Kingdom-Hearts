@@ -34,3 +34,10 @@ document.addEventListener("click", (e) => {
     bar2.classList.remove("open");
   }
 });
+
+
+
+//Imported data^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^//
+
+
+

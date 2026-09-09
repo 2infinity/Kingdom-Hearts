@@ -210,6 +210,12 @@ header{
     height: 400px;
     margin: 0px 0px 25px 0px;
 }
+#kh4LogoMobile{
+  display: none;
+  width: 650px;
+  height: 400px;
+  margin: 0px 0px 25px 0px;
+}
 .kh4Trailers{
     border-radius: 10%;
     width: 500px;
@@ -246,18 +252,20 @@ header{
     width: 300px;
     height: 150px;
   }
-}
-
-@media(width<=420px){
   #khTrailerIcon{
     width: 200px;
     height: 100px;
   }
-  #kh4Logo{
+}
+
+@media(width<=450px){
+  #kh4LogoMobile{
+    display: block;
     width: 325px;
     height: 200px;
   }
+  #kh4Logo{
+    display: none;
+  }
 }
-
-
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
