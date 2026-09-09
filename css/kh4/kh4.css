@@ -8,6 +8,11 @@ body{
   font-weight: bolder;
   overflow-x: hidden;
 }
+header{
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+}
 
 #menuBtn{
   width: 125px;
