@@ -4,6 +4,7 @@ body{
     color: white;
     font-weight: bolder;
     background-image: url("../../images/all-games/background-image/background.png");
+    overflow-x: hidden;
 }
 
 
@@ -170,4 +171,16 @@ opacity: 1;
 #heart{
   width: 20px;
   height: 25px;
+}
+
+/*IMPORT DATA ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-self: center;
+}
+.moogle{
+  width: 400px;
+  height: 500px;
 }
