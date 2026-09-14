@@ -4,7 +4,7 @@ body{
     color: white;
     font-weight: bolder;
     background-image: url("../../images/all-games/background-image/background.png");
-    overflow-x: hidden;
+    
 }
 
 
@@ -183,4 +183,23 @@ header{
 .moogle{
   width: 400px;
   height: 500px;
+}
+
+#shopsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+}
+.shops{
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+.shops:hover{
+  transform: scale(1.1);
 }
