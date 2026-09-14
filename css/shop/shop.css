@@ -212,7 +212,16 @@ header{
   height: 300px;
   border-radius: 25px;
 }
-
+.shopping{
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.25s linear;
+}
+.shopping:hover{
+  transform: scale(1.1);
+}
 
 /*RESPONSIVE DESIGN*********************************************************************************/
 @media(width<1779px){
@@ -251,6 +260,5 @@ header{
     width: 175px;
     height: 125px;
   }
-
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
