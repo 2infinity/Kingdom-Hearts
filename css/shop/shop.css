@@ -14,6 +14,7 @@ body{
   margin: none;
   position: fixed;
   right: 0px;
+  top: 0px;
   text-align: center;
   cursor: pointer;
   z-index: 5;
@@ -240,7 +241,7 @@ header{
   }
   #banner{
     width: 500px;
-    height: 250px;
+    height: 275px;
   }
 }
 @media(width<820px){
@@ -249,25 +250,25 @@ header{
     height: 125px;
   }
   .moogle{
-    width: 75px;
+    width: 100px;
     height: 150px
   }
   header{
-    margin: 75px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
   }
 }
-@media(width<420px){
+@media(width<466px){
   #banner{
     width: 225px;
-    height: 100px;
+    height: 125px;
   }
   .moogle{
-    width: 50px;
+    width: 65px;
     height: 75px;
   }
   .shops{
-    width: 175px;
-    height: 125px;
+    width: 150px;
+    height: 100px;
   }
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
