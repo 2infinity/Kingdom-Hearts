@@ -216,13 +216,16 @@ header{
 }
 .shopping{
   width: 250px;
-  height: 250px;
+  height: 200px;
   cursor: pointer;
   border-radius: 25px;
   transition: all 0.25s linear;
 }
 .shopping:hover{
   transform: scale(1.1);
+}
+.shopping:active{
+  transform: scale(0.9);
 }
 #shopIcon{
   width: 200px;
