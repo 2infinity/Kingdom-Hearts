@@ -21,6 +21,7 @@ span{
   margin-top: 25px;
   width: 375px;
   height: 275px;
+  animation: fadeIn 2.5s linear;
 }
 
 #menuBtn{
@@ -32,6 +33,7 @@ span{
   text-align: center;
   cursor: pointer;
   z-index: 5;
+  animation: fadeIn2 2.5s linear;
 }
 
 .hamburg{
