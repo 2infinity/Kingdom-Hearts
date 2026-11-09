@@ -37,3 +37,17 @@ document.addEventListener("click", (e) => {
 
 
 // ALL SHOULD BE EXPORTED TO ALL OF THE SITES   VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+
+
+
+
+// Displaying Options
+
+// Variables for the menu.r
+const options = document.querySelector(".options");
+const worlds = document.getElementById("worldOption");
+const story = document.getElementById("storyOption");
+const unions = document.getElementById("unionOption"); 
+
+
